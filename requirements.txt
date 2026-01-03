@@ -1,0 +1,5 @@
+azure-mgmt-resource
+azure-mgmt-web
+azure-identity
+fastapi[standard]
+uvicorn[standard]
