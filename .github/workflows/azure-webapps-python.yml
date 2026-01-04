@@ -53,9 +53,6 @@ jobs:
 
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
       
-      - name: Build Uvicorn 
-        run: uvicorn main:app --reload
-        
       - name: Upload artifact for deployment jobs
         uses: actions/upload-artifact@v4
         with:
